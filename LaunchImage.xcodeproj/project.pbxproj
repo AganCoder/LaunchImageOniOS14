@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8FB68A5B253EBFA6001026C6 /* SI2400@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FB68A59253EBFA6001026C6 /* SI2400@2x.png */; };
+		8FB68A5C253EBFA6001026C6 /* SI2732@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FB68A5A253EBFA6001026C6 /* SI2732@2x.png */; };
 		8FBDA177253DD52300A63BD1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FBDA176253DD52300A63BD1 /* AppDelegate.m */; };
-		8FBDA17A253DD52300A63BD1 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FBDA179253DD52300A63BD1 /* SceneDelegate.m */; };
 		8FBDA17D253DD52300A63BD1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FBDA17C253DD52300A63BD1 /* ViewController.m */; };
 		8FBDA180253DD52300A63BD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FBDA17E253DD52300A63BD1 /* Main.storyboard */; };
 		8FBDA182253DD52600A63BD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FBDA181253DD52600A63BD1 /* Assets.xcassets */; };
@@ -17,11 +18,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8FB68A59253EBFA6001026C6 /* SI2400@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SI2400@2x.png"; sourceTree = "<group>"; };
+		8FB68A5A253EBFA6001026C6 /* SI2732@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SI2732@2x.png"; sourceTree = "<group>"; };
 		8FBDA172253DD52300A63BD1 /* LaunchImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LaunchImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FBDA175253DD52300A63BD1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8FBDA176253DD52300A63BD1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		8FBDA178253DD52300A63BD1 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		8FBDA179253DD52300A63BD1 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		8FBDA17B253DD52300A63BD1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		8FBDA17C253DD52300A63BD1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		8FBDA17F253DD52300A63BD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -63,8 +64,6 @@
 			children = (
 				8FBDA175253DD52300A63BD1 /* AppDelegate.h */,
 				8FBDA176253DD52300A63BD1 /* AppDelegate.m */,
-				8FBDA178253DD52300A63BD1 /* SceneDelegate.h */,
-				8FBDA179253DD52300A63BD1 /* SceneDelegate.m */,
 				8FBDA17B253DD52300A63BD1 /* ViewController.h */,
 				8FBDA17C253DD52300A63BD1 /* ViewController.m */,
 				8FBDA17E253DD52300A63BD1 /* Main.storyboard */,
@@ -72,6 +71,8 @@
 				8FBDA183253DD52600A63BD1 /* LaunchScreen.storyboard */,
 				8FBDA186253DD52600A63BD1 /* Info.plist */,
 				8FBDA187253DD52600A63BD1 /* main.m */,
+				8FB68A59253EBFA6001026C6 /* SI2400@2x.png */,
+				8FB68A5A253EBFA6001026C6 /* SI2732@2x.png */,
 			);
 			path = LaunchImage;
 			sourceTree = "<group>";
@@ -132,6 +133,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FB68A5B253EBFA6001026C6 /* SI2400@2x.png in Resources */,
+				8FB68A5C253EBFA6001026C6 /* SI2732@2x.png in Resources */,
 				8FBDA185253DD52600A63BD1 /* LaunchScreen.storyboard in Resources */,
 				8FBDA182253DD52600A63BD1 /* Assets.xcassets in Resources */,
 				8FBDA180253DD52300A63BD1 /* Main.storyboard in Resources */,
@@ -148,7 +151,6 @@
 				8FBDA17D253DD52300A63BD1 /* ViewController.m in Sources */,
 				8FBDA177253DD52300A63BD1 /* AppDelegate.m in Sources */,
 				8FBDA188253DD52600A63BD1 /* main.m in Sources */,
-				8FBDA17A253DD52300A63BD1 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
