@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8FB68A5B253EBFA6001026C6 /* SI2400@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FB68A59253EBFA6001026C6 /* SI2400@2x.png */; };
+		8F813C80253FF90D007914F0 /* ScreenImage2732@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8F813C7F253FF90D007914F0 /* ScreenImage2732@2x.jpg */; };
+		8F813C83253FFA63007914F0 /* ScreenImage2400@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8F813C82253FFA63007914F0 /* ScreenImage2400@2x.jpg */; };
 		8FB68A5C253EBFA6001026C6 /* SI2732@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FB68A5A253EBFA6001026C6 /* SI2732@2x.png */; };
 		8FB68A6B253EC665001026C6 /* SI2388@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FB68A6A253EC665001026C6 /* SI2388@2x.png */; };
-		8FB68A6E253ECF8E001026C6 /* ScreenImage@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FB68A6D253ECF8E001026C6 /* ScreenImage@2x.jpg */; };
 		8FBDA177253DD52300A63BD1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FBDA176253DD52300A63BD1 /* AppDelegate.m */; };
 		8FBDA17D253DD52300A63BD1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FBDA17C253DD52300A63BD1 /* ViewController.m */; };
 		8FBDA180253DD52300A63BD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FBDA17E253DD52300A63BD1 /* Main.storyboard */; };
@@ -20,10 +20,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8FB68A59253EBFA6001026C6 /* SI2400@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SI2400@2x.png"; sourceTree = "<group>"; };
+		8F813C7F253FF90D007914F0 /* ScreenImage2732@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ScreenImage2732@2x.jpg"; sourceTree = "<group>"; };
+		8F813C82253FFA63007914F0 /* ScreenImage2400@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ScreenImage2400@2x.jpg"; sourceTree = "<group>"; };
 		8FB68A5A253EBFA6001026C6 /* SI2732@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SI2732@2x.png"; sourceTree = "<group>"; };
 		8FB68A6A253EC665001026C6 /* SI2388@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SI2388@2x.png"; sourceTree = "<group>"; };
-		8FB68A6D253ECF8E001026C6 /* ScreenImage@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ScreenImage@2x.jpg"; sourceTree = "<group>"; };
 		8FBDA172253DD52300A63BD1 /* LaunchImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LaunchImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FBDA175253DD52300A63BD1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8FBDA176253DD52300A63BD1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -76,9 +76,9 @@
 				8FBDA186253DD52600A63BD1 /* Info.plist */,
 				8FBDA187253DD52600A63BD1 /* main.m */,
 				8FB68A6A253EC665001026C6 /* SI2388@2x.png */,
-				8FB68A59253EBFA6001026C6 /* SI2400@2x.png */,
 				8FB68A5A253EBFA6001026C6 /* SI2732@2x.png */,
-				8FB68A6D253ECF8E001026C6 /* ScreenImage@2x.jpg */,
+				8F813C7F253FF90D007914F0 /* ScreenImage2732@2x.jpg */,
+				8F813C82253FFA63007914F0 /* ScreenImage2400@2x.jpg */,
 			);
 			path = LaunchImage;
 			sourceTree = "<group>";
@@ -139,10 +139,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8FB68A6E253ECF8E001026C6 /* ScreenImage@2x.jpg in Resources */,
-				8FB68A5B253EBFA6001026C6 /* SI2400@2x.png in Resources */,
 				8FB68A5C253EBFA6001026C6 /* SI2732@2x.png in Resources */,
 				8FBDA185253DD52600A63BD1 /* LaunchScreen.storyboard in Resources */,
+				8F813C83253FFA63007914F0 /* ScreenImage2400@2x.jpg in Resources */,
+				8F813C80253FF90D007914F0 /* ScreenImage2732@2x.jpg in Resources */,
 				8FBDA182253DD52600A63BD1 /* Assets.xcassets in Resources */,
 				8FBDA180253DD52300A63BD1 /* Main.storyboard in Resources */,
 				8FB68A6B253EC665001026C6 /* SI2388@2x.png in Resources */,
