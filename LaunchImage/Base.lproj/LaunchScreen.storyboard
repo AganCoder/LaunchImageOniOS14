@@ -17,29 +17,27 @@
                         <rect key="frame" x="0.0" y="0.0" width="834" height="1112"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SI2732.png" translatesAutoresizingMaskIntoConstraints="NO" id="lZ8-Gv-K0t">
-                                <rect key="frame" x="267" y="406" width="300" height="300"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="300" id="XIP-JC-ReF"/>
-                                    <constraint firstAttribute="height" constant="300" id="YWL-ji-uUq"/>
-                                </constraints>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SI2388.png" translatesAutoresizingMaskIntoConstraints="NO" id="lZ8-Gv-K0t">
+                                <rect key="frame" x="20" y="20" width="794" height="1072"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="linkColor"/>
                         <constraints>
-                            <constraint firstItem="lZ8-Gv-K0t" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="a3T-Ow-8IS"/>
-                            <constraint firstItem="lZ8-Gv-K0t" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="y8I-TU-gUX"/>
+                            <constraint firstAttribute="trailing" secondItem="lZ8-Gv-K0t" secondAttribute="trailing" constant="20" id="Vaa-nJ-IeN"/>
+                            <constraint firstItem="lZ8-Gv-K0t" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="a2f-k7-EAn"/>
+                            <constraint firstItem="lZ8-Gv-K0t" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="r6E-kp-2L6"/>
+                            <constraint firstAttribute="bottom" secondItem="lZ8-Gv-K0t" secondAttribute="bottom" constant="20" id="vKd-wU-K9P"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="345" y="354"/>
         </scene>
     </scenes>
     <resources>
-        <image name="SI2732.png" width="1366" height="1366"/>
+        <image name="SI2388.png" width="1194" height="1194"/>
         <systemColor name="linkColor">
             <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
