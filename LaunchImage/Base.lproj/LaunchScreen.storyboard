@@ -17,17 +17,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="834" height="1112"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SI2388.png" translatesAutoresizingMaskIntoConstraints="NO" id="lZ8-Gv-K0t">
-                                <rect key="frame" x="20" y="20" width="794" height="1072"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SI" translatesAutoresizingMaskIntoConstraints="NO" id="lZ8-Gv-K0t">
+                                <rect key="frame" x="0.0" y="0.0" width="834" height="1112"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="linkColor"/>
                         <constraints>
-                            <constraint firstAttribute="trailing" secondItem="lZ8-Gv-K0t" secondAttribute="trailing" constant="20" id="Vaa-nJ-IeN"/>
-                            <constraint firstItem="lZ8-Gv-K0t" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="a2f-k7-EAn"/>
-                            <constraint firstItem="lZ8-Gv-K0t" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="r6E-kp-2L6"/>
-                            <constraint firstAttribute="bottom" secondItem="lZ8-Gv-K0t" secondAttribute="bottom" constant="20" id="vKd-wU-K9P"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="lZ8-Gv-K0t" secondAttribute="trailing" id="Tzc-F0-YGC"/>
+                            <constraint firstItem="lZ8-Gv-K0t" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="gkP-Nr-8qb"/>
+                            <constraint firstItem="lZ8-Gv-K0t" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="liM-Gk-JO3"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="lZ8-Gv-K0t" secondAttribute="bottom" id="sLP-dq-aVu"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -37,7 +37,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="SI2388.png" width="1194" height="1194"/>
+        <image name="SI" width="128" height="128"/>
         <systemColor name="linkColor">
             <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
